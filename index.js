@@ -19,10 +19,10 @@ app.use("/files", express.static(path.join(__dirname,"/files")));
 // mysql -hcontainers-us-west-120.railway.app -uroot -pjdMrvhj2auEIxG0JsJPF --port 6746 --protocol=TCP railway
 //connection to mysql 
 const db = mysql.createConnection({
-    host:"containers-us-west-120.railway.app",
-    user:"root",
-    password:"jdMrvhj2auEIxG0JsJPF",
-    database:"mysql"
+    host:"sql12.freesqldatabase.com",
+    user:"sql12555414",
+    password:"szUzTN8L1G",
+    database:"sql12555414"
 });
 
 //storage setup for files
